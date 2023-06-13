@@ -7,9 +7,15 @@ class ReminderListPage extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return const Scaffold(
-      body: Center(
+    return Scaffold(
+      body: const Center(
         child: Text('Hello World!'),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // ボタンクリック時のコードを追加
+        },
+        child: const Icon(Icons.add),
       ),
     );
   }
