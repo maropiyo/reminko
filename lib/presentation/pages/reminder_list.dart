@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-class ListPage extends HookConsumerWidget {
-  const ListPage({super.key});
+/// リマインダーリスト画面
+class ReminderListPage extends HookConsumerWidget {
+  const ReminderListPage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
